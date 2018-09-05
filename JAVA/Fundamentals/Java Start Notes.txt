@@ -1,0 +1,5 @@
+javac 'filename'.java -> compiles java and creates a .class file
+java 'filename'[No File Extention] -> runs java program
+
+can compress
+javac 'filename'.java && java 'filename'
