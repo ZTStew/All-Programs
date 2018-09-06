@@ -8,6 +8,8 @@ public class Main {
         System.out.println(sharpTV.model);
         TV LGTV = new LG("Bad TV", 800.0, 48, 500, 1200);
         System.out.println(LGTV.model);
+        System.out.println(LGTV.on);
         LGTV.toggle();
+        System.out.println(LGTV.on);
     }
 }

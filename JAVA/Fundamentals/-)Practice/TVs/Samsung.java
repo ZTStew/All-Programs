@@ -11,10 +11,10 @@ public class Samsung extends TV implements ISmart {
         this.resolution= resolution;
     }
     public void browse(String site) {
-
+        //fancy things
     }
     public void spy(ArrayList<String> history) {
-
+        
     }
     public void connect(String SSID, String password) {
         System.out.println("Securely Connecting to "+SSID+" with password " + password);
