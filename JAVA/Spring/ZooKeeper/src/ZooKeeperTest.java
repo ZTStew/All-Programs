@@ -10,5 +10,17 @@ public class ZooKeeperTest {                                                    
         gorilla.eatBananas();                                                   // uses the 'eatBannanas' method of the 'gorilla' object
         gorilla.climb();                                                        // uses the 'climb' method of the 'gorilla' object
         gorilla.displayEnergy();                                                // uses the 'displayEnergy' method of the 'gorilla' object
-	}
+	
+        ZooKeeperBat bat = new ZooKeeperBat();
+
+        bat.displayEnergy();
+        bat.attackTown();
+        bat.attackTown();
+        bat.attackTown();
+        bat.eatHumans();
+        bat.eatHumans();
+        bat.fly();
+        bat.fly();
+        bat.displayEnergy();
+    }
 }

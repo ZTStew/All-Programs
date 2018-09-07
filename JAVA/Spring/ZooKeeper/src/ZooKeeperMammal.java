@@ -11,6 +11,6 @@ public class ZooKeeperMammal {                                                  
 
     public int displayEnergy(){                                                 // creates a method named, 'displayEnergy'
         System.out.println(this.energy);                                        // prints the value of the object's energy
-        return energy;
+        return energy;                                                          // returns the energy
     }
 }
