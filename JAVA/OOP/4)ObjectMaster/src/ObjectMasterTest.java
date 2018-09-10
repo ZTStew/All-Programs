@@ -2,7 +2,7 @@ public class ObjectMasterTest {                                                 
 
 	public static void main(String[] args) {                                    // creates an entry point method that expects no returns
         ObjectMasterHuman humi1 = new ObjectMasterHuman();                      // creates 'humi1', a new instance of 'ObjectMasterHuman'
-		ObjectMasterHuman humi2 = new ObjectMasterHuman();                      // creates 'humi2', a new instance of 'ObjectMasterHuman'
+        ObjectMasterHuman humi2 = new ObjectMasterHuman();                      // creates 'humi2', a new instance of 'ObjectMasterHuman'
         ObjectMasterWizard wiz1 = new ObjectMasterWizard();                     // creates 'wiz1', a new instance of 'ObjectMasterWizard'
         ObjectMasterWizard wiz2 = new ObjectMasterWizard();                     // creates 'wiz2', a new instance of 'ObjectMasterWizard'
         ObjectMasterNinja nin1 = new ObjectMasterNinja();                       // creates 'nin1', a new instance of 'ObjectMasterNinja'
@@ -23,5 +23,6 @@ public class ObjectMasterTest {                                                 
         sam1.deathBlow(nin2);                                                   // uses the 'deathBlow' method of 'sam1' on 'nin2'
         sam1.meditate();                                                        // uses the 'meditate' method of 'sam1'
         sam1.howMany();                                                         // uses the 'howMany' method of 'sam1'
-	}
+        System.out.println("The current number of samurai is: " + ObjectMasterSamurai.counter); // another way of showing the total count of samurai
+        }
 }
