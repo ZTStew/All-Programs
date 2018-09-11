@@ -1,9 +1,0 @@
-
-public class ZooKeeperMammal {
-    private int energy = 100;
-
-    public void displayEnergy(){
-        System.out.println(this.energy);
-        return;
-    }
-}
