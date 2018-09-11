@@ -1,5 +1,6 @@
 public class ZooKeeperGorilla extends ZooKeeperMammal {                         // creates 'ZooKeeperGorrilla' that extends 'ZooKeeperMammal'
-    public ZooKeeperGorilla(){
+    public ZooKeeperGorilla(String name){
+        setName(name);
     }
 
     public ZooKeeperGorilla throwThings(){

@@ -1,13 +1,14 @@
 public class ZooKeeperBat extends ZooKeeperMammal {
 
-    public ZooKeeperBat(){
+    public ZooKeeperBat(String name){
+        setName(name);
         setEnergy(300);
     }
 
     public ZooKeeperBat fly(){
         // System.out.println(getEnergy());
         if(getEnergy() - 50 > 0){
-            System.out.println("Flap, Flap, Flap.");
+            System.out.println(getName() + " Flew.");
             setEnergy(getEnergy() - 50);
         } else {
             System.out.println("Too Tired.");
