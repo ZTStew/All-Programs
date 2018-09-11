@@ -1,3 +1,10 @@
+/*
+ * An application to practice overloading in JAVA, can create people and then assign them, nothing, just a name, a name and, a description, or a name, a description and, a cost to employ
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/7/2018
+ */
+
 import java.util.ArrayList;                                                     // imports ArrayList so file can use it
 public class ProjectClassTest {                                                 // creates an class named, 'ProjectClassTest'
     public static void main(String[] args){                                     // creates an entry point method that expects no returns

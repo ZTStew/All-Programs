@@ -1,3 +1,10 @@
+/*
+ * Fizz Buzz, but in JAVA
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/5/2018
+ */
+
 public class FizzBuzzTest {                                                     // creates a class named, 'FizzBuzzTest'
     public static void main(String[] args){                                     // creates an entry point method that expects no returns
         FizzBuzzDemo buzz = new FizzBuzzDemo();                                 // creates, 'buzz', an instance of 'FizzBuzzDemo'

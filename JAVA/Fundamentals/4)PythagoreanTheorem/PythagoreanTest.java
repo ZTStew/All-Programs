@@ -1,3 +1,10 @@
+/*
+ * A simple starting application that prints the hypotenuse of a triangle given the length of the two legs
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/4/2018
+ */
+
 public class PythagoreanTest {                                                  // creates a class named, 'PythagoreanTest'
     public static void main(String[] args){                                     // creates an entry point method that expects no returns
         PythagoreanDemo hypotenuse = new PythagoreanDemo();                     // creates a method named, 'hypotenuse'

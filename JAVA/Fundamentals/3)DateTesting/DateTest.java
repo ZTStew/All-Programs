@@ -1,3 +1,10 @@
+/*
+ * A simple starting application that prints the current date when called
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/4/2018
+ */
+
 // do not have to explicitly tell file to import DataTestImport because it is in the same file
 public class DateTest {                                                         // create a class named, 'DateTest'
     public static void main(String[] args){                                     // creates an entry point method that expects no returns

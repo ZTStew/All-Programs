@@ -1,3 +1,10 @@
+/*
+ * An application to practice using Hash Maps
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/6/2018
+ */
+
 import java.util.HashMap;                                                       // allows file to use HashMaps
 import java.util.Set;                                                           // allows file to use Set
 public class MapsTest {                                                         // creates a class named, 'MapsTest'

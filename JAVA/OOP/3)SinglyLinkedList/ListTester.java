@@ -1,3 +1,10 @@
+/*
+ * JAVA application of Singly Linked List
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/7/2018
+ */
+
 public class ListTester {                                                       // creates an class named, 'ListTester'
     public static void main(String[] args){                                     // creates an entry point method that expects no returns
         SinglyLinkedList sll = new SinglyLinkedList();                          // creates 'sll', an instance of 'SinglyLinkedList'

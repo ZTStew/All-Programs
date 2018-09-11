@@ -1,3 +1,10 @@
+/*
+ * An application to test the various commands for interacting with strings
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/5/2018
+ */
+
 public class StringManipulatorTest {                                            // creates a class named, 'StringManipulatorTest'
     public static void main(String[] args){                                     // creates an entry point method that expects no returns
         

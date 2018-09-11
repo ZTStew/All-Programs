@@ -1,3 +1,10 @@
+/*
+ * A simple starting application to print 'Hello World'
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/4/2018
+ */
+
 public class HelloWorld {                                                       // creates a java class named HelloWorld. Same name as the file.
     public static void main(String[] args){                                     // creates a method named 'main' to act as the starting point of the code. We do not expect a return so we are using void.
         System.out.println("Hello World");                                       // outputs from the system a printline of "HelloWorld"

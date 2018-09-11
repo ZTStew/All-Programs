@@ -1,6 +1,13 @@
+/*
+ * JAVA application that allows the user to create four classes, human, wizard, ninja, and samurai. Each class inherents from human and has its own unique abilities of their own.
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/7/2018
+ */
+
 public class ObjectMasterTest {                                                 // creates a class named, 'ObjectMasterTest'
 
-	public static void main(String[] args) {                                    // creates an entry point method that expects no returns
+	public static void main(String[] args) {                                // creates an entry point method that expects no returns
         ObjectMasterHuman humi1 = new ObjectMasterHuman();                      // creates 'humi1', a new instance of 'ObjectMasterHuman'
         ObjectMasterHuman humi2 = new ObjectMasterHuman();                      // creates 'humi2', a new instance of 'ObjectMasterHuman'
         ObjectMasterWizard wiz1 = new ObjectMasterWizard();                     // creates 'wiz1', a new instance of 'ObjectMasterWizard'

@@ -1,3 +1,10 @@
+/*
+ * JAVA application that simulates a bank account. Each account can deposit to and withdraw from a checking or savings account. There is also a counter that tracks the total number of accounts.
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/9/2018
+ */
+
 public class BankAccountTest {                                                  // creates a class named, 'BankAccountTest'
     public static void main(String[] args) {                                    // creates an entry point method that expects no returns
         BankAccount accNo1 = new BankAccount();                                 // creates an instance of 'BankAccount' named, 'accNo1'

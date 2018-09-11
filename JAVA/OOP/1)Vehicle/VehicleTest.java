@@ -1,3 +1,10 @@
+/*
+ * An application that allows a user to create a 'vehicle' object and then give it traits such as, number of wheels, and color
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/7/2018
+ */
+
 public class VehicleTest {                                                      // creates a class named, 'VehicleTest'
     public static void main(String[] args){                                     // creates an entry point method that expects no returns
         VehicleDemo bike = new VehicleDemo();                                   // creates, 'bike' a new instance of 'VehicleDemo'

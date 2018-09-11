@@ -1,3 +1,10 @@
+/*
+ * A simple starting application to play with the rules of JAVA and to test out creating variables
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/4/2018
+ */
+
 public class FirstJavaProgram {                                                 // create a java class named 'FirstJavaProgram'
 
     static String myName = "Name";                                              // creates a static string variable called, 'myName' and assigns a value to the variable

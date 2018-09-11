@@ -1,3 +1,10 @@
+/*
+ * JAVA application that allows the user to creates phones which use an interface and abstract classes to create the object
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/10/2018
+ */
+
 public class PhoneTest {                                                        // creates a class named, 'PhoneTest'
     public static void main(String[] args) {                                    // creates an entry point method that expects no returns
         IPhone iPhoneNaN = new IPhone("NaN", 0, "Generic Guys", "Wrong");       // creates an instance of 'IPhone' named, 'iPhoneNaN'

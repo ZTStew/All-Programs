@@ -1,3 +1,10 @@
+/*
+ * A series of 12 basic programming problems to help explore JAVA
+ *
+ * @author Stewart
+ * @version JAVA 8, 9/5/2018
+ */
+
 import java.util.ArrayList;                                                     // allows file to use arraylists
 public class BasicsTest{                                                        // creates a class named, 'BasicsTest'
     public static void main(String[] args){                                     // creates an entry point method that expects no returns
